@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600;800;900&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap');
+      
+      .title {
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 900;
+        letter-spacing: -1.5px;
+      }
+      .subtitle {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 500;
+        letter-spacing: -0.2px;
+      }
+      .badge-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 700;
+        font-size: 11px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+      }
+      .pill-text {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 700;
+        font-size: 11.5px;
+        letter-spacing: 0.5px;
+      }
+      .mono-code {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+      }
+    </style>
+    
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140718"/>
+      <stop offset="50%" stop-color="#2c0e35"/>
+      <stop offset="100%" stop-color="#0a030d"/>
+    </linearGradient>
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="50%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#fda4af"/>
+    </linearGradient>
+    <radialGradient id="glow-rose" cx="300" cy="170" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#140718" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  
+  
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="none" stroke="#f43f5e" stroke-width="2" stroke-opacity="0.2"/>
+    <circle cx="300" cy="170" r="260" fill="url(#glow-rose)"/>
+    
+    <!-- Awesome Hub Stars & Voice AI Constellation -->
+    <g transform="translate(170, 65)">
+      <!-- Constellation Stars -->
+      <circle cx="40" cy="60" r="8" fill="#fda4af" stroke="#f43f5e" stroke-width="2"/>
+      <circle cx="160" cy="40" r="10" fill="#fda4af" stroke="#f43f5e" stroke-width="2"/>
+      <circle cx="60" cy="150" r="10" fill="#fda4af" stroke="#f43f5e" stroke-width="2"/>
+      <circle cx="170" cy="140" r="8" fill="#fda4af" stroke="#f43f5e" stroke-width="2"/>
+      
+      <!-- Connecting Lines -->
+      <line x1="40" y1="60" x2="110" y2="100" stroke="#f43f5e" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <line x1="160" y1="40" x2="110" y2="100" stroke="#f43f5e" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <line x1="60" y1="150" x2="110" y2="100" stroke="#f43f5e" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <line x1="170" y1="140" x2="110" y2="100" stroke="#f43f5e" stroke-width="1.5" stroke-dasharray="3 3"/>
+      
+      <!-- Center Awesome Star Badge -->
+      <circle cx="110" cy="100" r="32" fill="#881337" stroke="#fb7185" stroke-width="2.5"/>
+      <!-- Star polygon -->
+      <polygon points="110,78 116,92 131,92 119,101 123,116 110,107 97,116 101,101 89,92 104,92" fill="#fde047"/>
+    </g>
+    
+  
+    <g transform="translate(480, 0)">
+      <g transform="translate(0, 58)">
+        <rect width="180" height="26" rx="6" fill="#881337" stroke="#fb7185" stroke-width="1"/>
+        <text x="90" y="17" text-anchor="middle" class="badge-text" fill="#fecdd3">AWESOME LIST</text>
+      </g>
+      
+      <text x="0" y="142" class="title" font-size="46" fill="url(#title-grad)">Awesome Phone Call Agents</text>
+      
+      <text x="0" y="184" class="subtitle" font-size="20" fill="#ffe4e6">Curated Hub of Voice AI Agent Skills, Frameworks &amp; Tools</text>
+      <text x="0" y="210" class="subtitle" font-size="14" fill="#cbd5e1" opacity="0.8">Community directory for reusable phone skills, voice architectures, and recipes.</text>
+      
+      <g transform="translate(0, 246)">
+        <g transform="translate(0, 0)">
+          <rect width="145" height="32" rx="8" fill="#290a18" stroke="#fb7185" stroke-width="1.5"/>
+          <text x="72" y="20" text-anchor="middle" class="pill-text" fill="#fda4af">⭐ Curated List</text>
+        </g>
+        <g transform="translate(157, 0)">
+          <rect width="145" height="32" rx="8" fill="#290a18" stroke="#fb7185" stroke-width="1.5"/>
+          <text x="72" y="20" text-anchor="middle" class="pill-text" fill="#fda4af">🎙️ Voice AI Skills</text>
+        </g>
+        <g transform="translate(314, 0)">
+          <rect width="145" height="32" rx="8" fill="#290a18" stroke="#fb7185" stroke-width="1.5"/>
+          <text x="72" y="20" text-anchor="middle" class="pill-text" fill="#fda4af">🤖 Agent Blueprints</text>
+        </g>
+      </g>
+    </g>
+    
+</svg>

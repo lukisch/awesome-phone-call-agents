@@ -1,3 +1,5 @@
+<img src="assets/banner.png" width="100%" alt="awesome-phone-call-agents Banner">
+
 # Awesome Phone Call Agents
 
 <div align="center">
